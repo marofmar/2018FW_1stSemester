@@ -4,4 +4,4 @@ import seaborn as sns
 sns.set()
 
 plt.style.use('ggplot')
-plt.rcParams['figrue.figsize'] = (14,8)
+plt.rcParams['figure.figsize'] = (14,8)
