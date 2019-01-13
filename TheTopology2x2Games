@@ -1,0 +1,122 @@
+<The Topology of the 2x2 Games> A New Periodic Table
+David Robinson and David Goforth
+
+*Personal memos while reading the book. 
+
+p1.
+Simplicity gies the 2x2 game stheir power: they provide remarkable diversity with the absolute minimum of machinery.
+
+The apparent simplicity of the 2x2 games is deceptive. The eight numbers yield a class of 144 problems of remarkable rechness 
+and complexity.
+And while individual games have been discussed in detail, the relationships among the games have never been mapped.
+Instead, the 2x2 gaems are almost alwyas dealt with anecdotally.
+
+The goal of this book is to present a systematic framework for the 2x2 games. 
+
+Abstracting vital information and suppressing the irrelevant is at the heart of any formal approach. Game theory is a formal 
+approach to analysing social situations employing highly stylized and parsimonious descriptions.
+
+The analysis of a game is usually directed toaward determining what might happen when players interact given the rules and 
+available information. (Solution)
+
+A game in strategic form is just a function with one input for each player (a strategy) and one output for each player 
+(a payoff).
+
+The two players constitute the player set. The actions available to the players, called strategies, make up the strategy sets
+for the players.
+
+p5.
+One goal of this book is to present a useful ways to divide this infinite 8-space into a manageable number of meaningful regions.
+
+The regions are defined using two simplifications: (i) we treat sets of games that are equivalent under strictly monotonic
+transformations as equivalence classes, and (ii) we rule out indifference.- Ruling out indifference eliminates ties in the 
+payoffs for either player, restricting us to the strict ordinal games. It also creates a discontinuity between the equivaence
+classes.
+
+p7
+If the outcome is picked out by a solution concept, it is "in the solution set". If the solution concept picks no outcome, 
+the solution set is empty.
+
+p8.
+THe strategy space is the domain of the payoff function.
+
+p9. Chapter 2, 144 games
+Numbering systems in the literatrue are essentially arbitrary, so we introduce a simple indexing system based on teh topological
+relationships between games. A set of four reference figures shows the order graph for all 144 games arrayed according to our 
+indexing system. We also discuss the patterns that appear at the level of the order graph.
+
+p11.
+We call the set of payoff vectors when one player's choices are fixed the inducement correspondence, short for what Greenberg 
+calls the inducement correspondence for the Nash situation.
+An indecement correspondence is a general term for a set of positions that one player can bring about, or 'induce'. When we 
+refer to 'Row's inducement correspondences for Nash situation are always columns of the payoff matrix, and Column's are always
+rows.
+
+Solid lines identify Row's two inducement correspondences (linking alternatives available to Row once Column has chosn)
+and dotted lines identify the inducement correspondences for the column player.
+
+p12.
+A solution set is simply a subset of the possible outcomes that either predicts how a particular game will turn out or 
+prescribes how it should turn out. A solution concept is a rationale for picking a solution based on the information specified
+in the form. No other information can be used. 
+
+Rapport and Guyer established a commonly accepted count for the 2x2 games. They began with the observation that there are 576
+(4*9*16) ways to arrange two sequences of four numbers in a bi-matrix. They then decided (in effect) that if matrices produce 
+the same order graph they are equivalent, reducing the number of games by a factor of four to 144. 
+
+p18 << no idea what this talks about YET
+We have now chosen two of the four payoff vectors required to define a 2x2 game. Without loss of generality we can arbitrarily
+assign the two points to Row's inducement correspondence (one o fthe columns of a payoff matrix).
+  There are 9 alternatives for the location of the third point, since it can be below the lowest(1), 
+  between the two previous points(2),or above both of them(3), and it can also be either left of, right of, or between them. 
+  
+p19
+c: the column player's payoff pattern (6)
+r: the row player's payoff pattern (6)
+l: the relative orientation of the two payoff patterns (4)
+
+With six column patterns, six row patterns, and four layers, we have room for exactly 2x2 games. The entire collection of games
+can be visualized.
+
+p21
+Order graphs are patterns drawn on a four-by-four grid. They consist of four nodes connected by tow paris of lines to form a
+quadrilateral. Each of the nodes represetns a payoff pair; each line represents a rwo or a column of a payoff matrix. Stric 
+ordinality implies that no vertical or horizontal line in the grid can contain more than one dot. 
+
+p21 << 'seven basic payoff patterns'? why not six? YET
+To construct particular order graph we select the appropriate elementary patterns, connect the dots, assign the inducement 
+correspondences, and then rotate or reflect the resulting quadrilateral to get the right orientation. Rotations and reflections
+preserve the shape of the figure but change its orientation. Any point-to-point transformation that preserves distances and 
+relations betweeen points in this way is called an 'isometry'.
+
+To understand the patterns in the set of 144 order graphs, we need to understand how the dots can be wired, how they can be 
+assigned, and the various ways that the figure can be rotated or reflected. 
+
+p22
+WIRINGS
+For some patterns, there are three distinct 'wirings'; for others, only two. 
+The number 4 beside the square indicates that four games can be made from it by reflection, rotation or reassignment. 
+
+ASSIGNMENT << YET
+If the dotted lines in the square in the first row are changed to solid lines, and the solid lines into dotted lines, 
+the result is a new game. In the new game Row faces gthe alternatives that Column faced in the original game.
+We call the new game the antigame of the original, and we get to the new game by the operation A, which reAssigns the 
+inducement correspondences. 
+  Unlike the geometric transformations, A is not isometric becuase distances between points are not preserved. 
+  
+p35
+Topology is the mathematical study of properties of objects which are preserved through deformations, twistings, and sgtretchings 
+but not through breaks or cuts. 
+
+  1. To each point x there corresponds at least one neighbourhood U(x) and U(x) contains x. 
+  2. If U(x) and V(x) are neighbourhoods of the same point x, then there exists a neighbourhood W(x) of x such that W(x) is a 
+     subset of the union U(x) and V(x).
+  3. If y is a point in U(x), then there exists a neighbourhood V(y) of y such that V(y) is a subset of U(x).
+  4. For distint points x and y, there exist two disjoint neighbuorhoods U(x) and V(y). 
+
+
+
+
+
+
+
